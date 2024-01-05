@@ -8,7 +8,7 @@ import Link from "next/link";
 const Two = () => {
   return (
     <Box className="headerIMG2" color={"#fff"} position={"fixed"}>
-      <Box px={"1.5rem"} mt={"3rem"}>
+      <Box px={"1.5rem"} mt={"3rem"} position={"relative"}>
         <Image src={logoBlue} alt="logo" width={154} height={20} />
         <Text
           fontSize={"24px"}
@@ -37,7 +37,7 @@ const Two = () => {
           <Text
             fontSize={"15px"}
             fontWeight={500}
-            color={"#fafafa"}
+            color={"#fff"}
             fontStyle={"normal"}
           >
             Skip

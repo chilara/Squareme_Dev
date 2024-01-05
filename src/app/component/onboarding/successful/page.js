@@ -71,7 +71,7 @@ const Successful = () => {
           textAlign={"center"}
           backgroundColor={"#000A4A"}
         >
-          <Link href="/component/onboarding/phone1">Okay!</Link>
+          <Link href="/component/onboarding/secure-account">Okay!</Link>
         </Button>
       </Box>
     </Box>

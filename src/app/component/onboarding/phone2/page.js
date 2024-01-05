@@ -108,7 +108,7 @@ const Phone2 = () => {
             textAlign={"center"}
             backgroundColor={"#000A4A"}
           >
-            <Link href="/component/onboarding/phone1">Whatsapp</Link>
+            <Link href="/component/onboarding/successful">Whatsapp</Link>
           </Button>
         </Flex>
       </Box>

@@ -64,12 +64,12 @@ const SignUp = () => {
             padding={"18px"}
             display={"flex"}
             alignItems={"center"}
-            // justifyContent={"center"}
-            gap={"2rem"}
+            justifyContent={"center"}
+            // gap={"2rem"}
             width={"40%"}
           >
-            <InputLeftElement px={"2rem"} mt={"1rem"}>
-              <Image src={arrowDown} alt="arrowdown" width={12} height={12} />
+            <InputLeftElement mt={"1.2rem"} ml={"15%"}>
+              <Image src={flag} alt="flag" width={20} height={20} />
             </InputLeftElement>
             <Input
               placeholder="+234"
@@ -77,16 +77,16 @@ const SignUp = () => {
               fontWeight={500}
               color={"#9F56D4"}
               display={"flex"}
-              // justifyContent={"center"}
               alignItems={"center"}
               width={"50%"}
+              // ml={"10%"}
             />
-            <InputRightElement px={"2rem"} mt={"1rem"}>
+            <InputRightElement mt={"1.4rem"} mr={"30%"}>
               <Image src={arrowDown} alt="arrowdown" width={12} height={12} />
             </InputRightElement>
           </InputGroup>
           <InputGroup
-            color={"#9F56D4"}
+            // color={"#979797"}
             borderRadius={"8px"}
             border={"1px solid #D0D5DD"}
             boxShadow={"0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}
@@ -100,7 +100,7 @@ const SignUp = () => {
               placeholder="Phone Number"
               fontSize={"13px"}
               fontWeight={500}
-              color={"#9F56D4"}
+              // color={"#979797"}
               display={"flex"}
               justifyContent={"center"}
               alignItems={"center"}

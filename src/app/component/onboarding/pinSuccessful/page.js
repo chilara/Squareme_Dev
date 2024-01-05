@@ -71,7 +71,7 @@ const PinSuccessful = () => {
           textAlign={"center"}
           backgroundColor={"#000A4A"}
         >
-          <Link href="/component/onboarding/phone1">Okay!</Link>
+          <Link href="/component/onboarding/home">Okay!</Link>
         </Button>
       </Box>
     </Box>

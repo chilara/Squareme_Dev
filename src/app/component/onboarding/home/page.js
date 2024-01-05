@@ -3,7 +3,7 @@ import { Box, Text, Flex, Button } from "@chakra-ui/react";
 import Image from "next/image";
 import "../home/home.css";
 import face from "../../../../app/assets/face.svg";
-
+import Link from "next/link";
 import scanbarcode from "../../../../app/assets/scanbarcode.svg";
 import RedEllipse from "../../../../app/assets/RedEllipse.svg";
 import notification from "../../../../app/assets/notification.svg";
@@ -17,8 +17,8 @@ import category2 from "../../../../app/assets/category2.svg";
 
 const Home = () => {
   return (
-    <Box px={"1.5rem"}>
-      <Box display={"flex"} flexDir={"column"} mt={"3rem"} className="first">
+    <Box px={"1.5rem"} className="first" position={"fixed"}>
+      <Box display={"flex"} flexDir={"column"} mt={"3rem"}>
         <Box display={"flex"} justifyContent={"space-between"} gap={"5rem"}>
           <Flex gap={"1rem"}>
             <Image src={face} alt="face" width={32} height={32} />
@@ -67,7 +67,7 @@ const Home = () => {
               padding={"6px"}
               borderRadius={"20px"}
               position={"absolute"}
-              right={45}
+              right={26}
               top={55}
             >
               <Image src={RedEllipse} alt="red" width={6} height={6} />
@@ -283,7 +283,10 @@ const Home = () => {
           mt={"3.5rem"}
         >
           <Image src={home2} alt="home" width={24} height={24} />
-          <Image src={category2} alt="category" width={24} height={24} />
+          <Link href="/component/onboarding/keypad">
+            <Image src={category2} alt="category" width={24} height={24} />
+          </Link>
+
           <Image src={profile2} alt="profile" width={24} height={24} />
         </Flex>
       </Box>

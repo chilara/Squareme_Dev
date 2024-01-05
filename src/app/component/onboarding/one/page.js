@@ -9,7 +9,7 @@ const One = () => {
   return (
     <>
       <Box className="headerIMG" color={"#fff"} position={"fixed"}>
-        <Box px={"1.5rem"} mt={"3rem"}>
+        <Box px={"1.5rem"} mt={"3rem"} position={"relative"}>
           <Image src={logo} alt="logo" width={154} height={20} />
           <Text
             fontSize={"24px"}
@@ -38,7 +38,7 @@ const One = () => {
             <Text
               fontSize={"15px"}
               fontWeight={500}
-              color={"#fafafa"}
+              color={"#fff"}
               fontStyle={"normal"}
             >
               Skip
