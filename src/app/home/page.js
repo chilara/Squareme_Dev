@@ -1,19 +1,19 @@
 import React from "react";
 import { Box, Text, Flex, Button } from "@chakra-ui/react";
 import Image from "next/image";
-import "../home/home.css";
-import face from "../../../../app/assets/face.svg";
+import "./home.css";
+import face from "../../app/assets/face.svg";
 import Link from "next/link";
-import scanbarcode from "../../../../app/assets/scanbarcode.svg";
-import RedEllipse from "../../../../app/assets/RedEllipse.svg";
-import notification from "../../../../app/assets/notification.svg";
-import money from "../../../../app/assets/money.svg";
-import note from "../../../../app/assets/note.svg";
-import gift from "../../../../app/assets/gift.svg";
-import creditcard from "../../../../app/assets/creditcard.svg";
-import home2 from "../../../../app/assets/home2.svg";
-import profile2 from "../../../../app/assets/profile2.svg";
-import category2 from "../../../../app/assets/category2.svg";
+import scanbarcode from "../../app/assets/scanbarcode.svg";
+import RedEllipse from "../../app/assets/RedEllipse.svg";
+import notification from "../../app/assets/notification.svg";
+// import money from "../../../../app/assets/money.svg";
+import note from "../../app/assets/note.svg";
+import gift from "../../app/assets/gift.svg";
+import creditcard from "../../app/assets/creditcard.svg";
+import home2 from "../../app/assets/home2.svg";
+import profile2 from "../../app/assets/profile2.svg";
+import category2 from "../../app/assets/category2.svg";
 
 const Home = () => {
   return (
@@ -283,7 +283,7 @@ const Home = () => {
           mt={"3.5rem"}
         >
           <Image src={home2} alt="home" width={24} height={24} />
-          <Link href="/component/onboarding/keypad">
+          <Link href="/home/keypad">
             <Image src={category2} alt="category" width={24} height={24} />
           </Link>
 

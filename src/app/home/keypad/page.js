@@ -1,12 +1,13 @@
 import React from "react";
 import { Box, Text, Flex, Button } from "@chakra-ui/react";
 import Image from "next/image";
-import "../signUp/signUp.css";
-import barcode from "../../../../app/assets/barcode.svg";
-import clock from "../../../../app/assets/clock.svg";
-import home from "../../../../app/assets/home.svg";
-import category from "../../../../app/assets/category.svg";
-import profile from "../../../../app/assets/profile.svg";
+import Link from "next/link";
+
+import barcode from "../../../app/assets/barcode.svg";
+import clock from "../../../app/assets/clock.svg";
+import home from "../../../app/assets/home.svg";
+import category from "../../../app/assets/category.svg";
+import profile from "../../../app/assets/profile.svg";
 
 export const numbers = [
   {
@@ -169,7 +170,10 @@ const Keypad = () => {
           gap={"2rem"}
           mt={"2.5rem"}
         >
-          <Image src={home} alt="home" width={24} height={24} />
+          <Link href="/home">
+            <Image src={home} alt="home" width={24} height={24} />
+          </Link>
+
           <Image src={category} alt="category" width={24} height={24} />
           <Image src={profile} alt="profile" width={24} height={24} />
         </Flex>

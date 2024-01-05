@@ -41,7 +41,7 @@ const One = () => {
               color={"#fff"}
               fontStyle={"normal"}
             >
-              Skip
+              <Link href="/component/onboarding/login">Skip</Link>
             </Text>
             <Button
               padding={"14px 36px"}

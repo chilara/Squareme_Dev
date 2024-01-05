@@ -19,15 +19,7 @@ const Three = () => {
         >
           Spend your money easily without any complications
         </Text>
-        {/* <Box
-          backgroundColor={"rgba(0, 0, 0.5, 0.5)"}
-          position={"absolute"}
-          top={600}
-          // bottom={0}
-          right={0}
-          left={0}
-          // minHeight={"100vh"}
-        > */}
+
         <Flex justifyContent={"center"}>
           <Button
             padding={"16px 96px 14px 96px"}
@@ -43,7 +35,6 @@ const Three = () => {
             <Link href="/component/onboarding/login"> Get Started</Link>
           </Button>
         </Flex>
-        {/* </Box> */}
       </Box>
     </Box>
   );
