@@ -15,10 +15,23 @@ import home2 from "../../app/assets/home2.svg";
 import profile2 from "../../app/assets/profile2.svg";
 import category2 from "../../app/assets/category2.svg";
 
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%)
 const Home = () => {
   return (
     <Box px={"1.5rem"} className="first" position={"fixed"}>
-      <Box display={"flex"} flexDir={"column"} mt={"3rem"}>
+      <Box
+        display={"flex"}
+        flexDir={"column"}
+        mt={"3rem"}
+        background={
+          "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%)"
+        }
+        position={"absolute"}
+        top={0}
+        left={0}
+        height={"100vh"}
+        px={"1.5rem"}
+      >
         <Box display={"flex"} justifyContent={"space-between"} gap={"5rem"}>
           <Flex gap={"1rem"}>
             <Image src={face} alt="face" width={32} height={32} />
@@ -68,7 +81,7 @@ const Home = () => {
               borderRadius={"20px"}
               position={"absolute"}
               right={26}
-              top={55}
+              top={5}
             >
               <Image src={RedEllipse} alt="red" width={6} height={6} />
             </Box>
