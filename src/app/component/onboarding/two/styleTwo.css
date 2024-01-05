@@ -1,0 +1,7 @@
+.headerIMG2 {
+  background-image: url("../../../../app/assets/twoBGimage.svg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
