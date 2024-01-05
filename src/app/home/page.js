@@ -7,7 +7,6 @@ import Link from "next/link";
 import scanbarcode from "../../app/assets/scanbarcode.svg";
 import RedEllipse from "../../app/assets/RedEllipse.svg";
 import notification from "../../app/assets/notification.svg";
-// import money from "../../../../app/assets/money.svg";
 import note from "../../app/assets/note.svg";
 import gift from "../../app/assets/gift.svg";
 import creditcard from "../../app/assets/creditcard.svg";
@@ -15,7 +14,6 @@ import home2 from "../../app/assets/home2.svg";
 import profile2 from "../../app/assets/profile2.svg";
 import category2 from "../../app/assets/category2.svg";
 
-// background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%)
 const Home = () => {
   return (
     <Box px={"1.5rem"} className="first" position={"fixed"}>
@@ -104,7 +102,6 @@ const Home = () => {
           >
             Wallet Balance
           </Text>
-          {/* <Image src={money} alt="money" width={154} height={55} /> */}
           <Box
             backgroundColor={"rgba(244, 244, 244, 0.10)"}
             backdropBlur={"blur(2.5px)"}
