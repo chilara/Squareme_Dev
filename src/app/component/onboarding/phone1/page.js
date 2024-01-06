@@ -1,10 +1,8 @@
 import React from "react";
-import { Box, Text, Flex, Button } from "@chakra-ui/react";
+import { Box, Text, Flex, Button, Input, InputGroup } from "@chakra-ui/react";
 import Image from "next/image";
 import "../signUp/signUp.css";
 import arrowLeft from "../../../../app/assets/arrowLeft.svg";
-import setThree from "../../../../app/assets/setThree.svg";
-import setTwo from "../../../../app/assets/setTwo.svg";
 import Link from "next/link";
 
 const Phone1 = () => {
@@ -17,7 +15,10 @@ const Phone1 = () => {
       justifyContent={"center"}
     >
       <Flex gap={"2rem"}>
-        <Image src={arrowLeft} alt="arrow" width={24} height={24} />
+        <Link href="/component/onboarding/signUp">
+          <Image src={arrowLeft} alt="arrow" width={24} height={24} />
+        </Link>
+
         <Text
           fontSize={"16px"}
           fontWeight={700}
@@ -44,14 +45,64 @@ const Phone1 = () => {
           Please input the five digit code that was sent to your phone number
           below
         </Text>
-        <Flex gap={".2rem"} mt={"4rem"}>
-          <Box>
-            <Image src={setThree} alt="set" width={116} height={44} />
-          </Box>
-          <Box>
-            <Image src={setTwo} alt="set" width={93} height={44} />
-          </Box>
+        <Flex mt={"2.5rem"} gap={".3rem"}>
+          <Input
+            fontSize={"13px"}
+            fontWeight={500}
+            color={"#9F56D4"}
+            width={44}
+            height={44}
+            borderRadius={"8px"}
+            boxShadow={"0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}
+            padding={"18px"}
+            backgroundColor={"#F2F8FF"}
+          />
+          <Input
+            fontSize={"13px"}
+            fontWeight={500}
+            color={"#9F56D4"}
+            width={44}
+            height={44}
+            borderRadius={"8px"}
+            boxShadow={"0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}
+            padding={"18px"}
+            backgroundColor={"#F2F8FF"}
+          />
+          <Input
+            fontSize={"13px"}
+            fontWeight={500}
+            color={"#9F56D4"}
+            width={44}
+            height={44}
+            borderRadius={"8px"}
+            boxShadow={"0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}
+            padding={"18px"}
+            backgroundColor={"#F2F8FF"}
+          />
+          <Input
+            fontSize={"13px"}
+            fontWeight={500}
+            color={"#9F56D4"}
+            width={44}
+            height={44}
+            borderRadius={"8px"}
+            boxShadow={"0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}
+            padding={"18px"}
+            backgroundColor={"#F2F8FF"}
+          />
+          <Input
+            fontSize={"13px"}
+            fontWeight={500}
+            color={"#9F56D4"}
+            width={44}
+            height={44}
+            borderRadius={"8px"}
+            boxShadow={"0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}
+            padding={"18px"}
+            backgroundColor={"#F2F8FF"}
+          />
         </Flex>
+
         <Text
           fontSize={"14px"}
           fontWeight={500}

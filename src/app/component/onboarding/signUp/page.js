@@ -21,7 +21,10 @@ const SignUp = () => {
   return (
     <Box px={"1.5rem"} mt={"4rem"}>
       <Flex gap={"2rem"}>
-        <Image src={arrowLeft} alt="arrow" width={24} height={24} />
+        <Link href="/component/onboarding/login">
+          <Image src={arrowLeft} alt="arrow" width={24} height={24} />
+        </Link>
+
         <Text
           fontSize={"16px"}
           fontWeight={700}
@@ -83,27 +86,20 @@ const SignUp = () => {
               <Image src={arrowDown} alt="arrowdown" width={12} height={12} />
             </InputRightElement>
           </InputGroup>
-          <InputGroup
-            borderRadius={"8px"}
+          <Input
+            placeholder="Phone Number"
+            fontSize={"13px"}
+            fontWeight={500}
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
             border={"1px solid #D0D5DD"}
+            borderRadius={"8px"}
             boxShadow={"0px 1px 2px 0px rgba(16, 24, 40, 0.05)"}
             mt={"2rem"}
             width={"55%"}
             padding={"18px"}
-            display={"flex"}
-            alignItems={"center"}
-          >
-            <Input
-              placeholder="Phone Number"
-              fontSize={"13px"}
-              fontWeight={500}
-              display={"flex"}
-              justifyContent={"center"}
-              alignItems={"center"}
-              border={"none"}
-              width={"70%"}
-            />
-          </InputGroup>
+          />
         </Flex>
 
         <InputGroup
